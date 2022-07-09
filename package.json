@@ -1,0 +1,16 @@
+{
+  "name": "multiplayersnake",
+  "version": "1.0.0",
+  "description": "Multiplayer Snake Game",
+  "repository": "https://github.com/crypto-cmd/multiplayersnake.git",
+  "author": "Orville Daley <orvilledaley2004+git@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently 'yarn run dev:backend' 'yarn run dev:frontend'",
+    "dev:frontend": "cd frontend && yarn run dev",
+    "dev:backend": "cd backend && yarn run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2"
+  }
+}

@@ -1,0 +1,16 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin fill-screen {
+  width: 100vw;
+  height: 100vh;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+@mixin rounded {
+  border-radius: 0.4rem;
+}
